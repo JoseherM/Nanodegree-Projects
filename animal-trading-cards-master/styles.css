@@ -1,0 +1,70 @@
+body {
+  width: 320px;
+  height: 610px;
+  border: 1px solid #d6d6d6;
+
+  -moz-box-shadow: 5px 5px 1px #d6d6d6;
+  -webkit-box-shadow: 5px 5px 1px #d6d6d6;
+  box-shadow: 5px 5px 1px #d6d6d6;
+  <!-- I did some research about the main block, margings and how to make a shadow -->
+}
+
+h2 {
+  color rgb(0,0,0);
+  width: 300px;
+  height: 20px;
+  border: 5px;
+  margin: 5px;
+  padding: 5px;
+  ​font​: ​5pt​ Consolas, Monaco, monospace;
+  <!-- I use the inspector tool to verify the margins, padding and border-->
+}
+
+img {
+  width: 300px;
+  height: 200px;
+  border: 5px;
+  margin: 5px;
+  padding: 5px;
+  <!-- I use the inspector tool to verify the margins, padding and border
+  Salvemos a un Amigo (n.d.). Lobo Mexicano. Retrieved from: https://salvemosaunamigo.mx/especies/lobo-mexicano/.-->
+}
+
+.info {
+  width: 300px;
+  height: 320px;
+  border: 1px solid #d6d6d6;
+  margin: 9px;
+  padding: 0px;
+}
+
+.fact {
+  font-style: italic;
+  font​: ​1px Consolas, Monaco, monospace;
+  padding: 2px;
+  <!-- I added the italic to the font line, but it did work. I found out on the chat
+  that I could use font-style...and it worked.-->
+}
+
+ul {
+  list-style: none;
+  font​: ​2px Consolas, Monaco, monospace;
+  padding: 2px;
+}
+
+li {
+  list-style: none;
+  font​: ​2pt​ Consolas, Monaco, monospace;
+}
+
+.item {
+  font-weight: bold;
+}
+
+.desc {
+  font​: ​1px Consolas, Monaco, monospace;
+  text-align: justify;
+  padding: 2px;
+  <!-- I really really really struggle to fit the text into this block.
+  my original idea was to have a block size like the image.-->
+}
